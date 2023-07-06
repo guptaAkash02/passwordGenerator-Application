@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Roboto:wght@300&family=Ysabeau:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+body{
+    background-color: cyan;
+}
+
+input:focus-visible{
+    outline: 0;
+}
+
+.main{
+    
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    min-width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 10px rgb(0 0 0/ 50%);
+    border-radius: 2px;
+    
+    
+}
+
+#pass-box{
+    height: 50px;
+    display: block;
+    background-color: antiquewhite;
+    font-size: 30px;
+    margin: 13px;
+    padding: 6px;
+    padding-bottom: 10px;
+    border: 4px;
+    text-align: center;
+    
+
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+input{
+    margin-right: 20px;
+}
+.left{
+    margin-left: 13px;
+}
+label{
+    user-select: none;
+}
+
+#button{
+  width: 100%;
+  margin-top: 13px;
+  font-size: 25px;
+  border: none;
+  color: black;
+  outline: none;
+  margin: 13px;
+}
